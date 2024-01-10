@@ -8,9 +8,11 @@ const Color l2 = Color(0xFFFFDBD4);
 const Color purple = Color(0xFF5956E8);
 const Color text = Color(0xFF292930);
 
+const kmaxwidth = 1232.0;
+const kpadding = 20.0;
 //fonts of the app
 
-final kNunexb = GoogleFonts.nunito(
+final nunexb = GoogleFonts.nunito(
   fontWeight: FontWeight.w800,
   color: text,
 );
@@ -20,7 +22,7 @@ final kNunsebo = GoogleFonts.nunito(
 );
 final kNunmed = GoogleFonts.nunito(
   fontWeight: FontWeight.w500,
-  color: text,
+  color: Colors.black,
 );
 final kNunreg = GoogleFonts.nunito(
   fontWeight: FontWeight.w400,
